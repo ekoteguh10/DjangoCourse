@@ -3,6 +3,5 @@ from . import views
 
 urlpatterns = [
     # add your URLs
-    path('', views.articles),
-    path('categories/<str:name>', views.categories),
+    path('', views.get_all_articles),
 ]
